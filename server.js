@@ -44,7 +44,7 @@ app.get('/user/:id', function (req, res) {
             }
             return res.status(200).json(doc);
     })
-    .catch(err=>next(err));git
+    .catch(err=>next(err));
 })
 
 
